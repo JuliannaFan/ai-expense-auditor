@@ -3,18 +3,18 @@
 [![HTML](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/docs/Web/HTML)
 [![CSS](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=111)](https://developer.mozilla.org/docs/Web/JavaScript)
-[![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-000?logo=vercel&logoColor=white)](https://ai-expense-auditor-five.vercel.app/)
+[![GitHub Pages](https://img.shields.io/badge/Deployed_on-GitHub_Pages-222?logo=github&logoColor=white)](https://juliannafan.github.io/ai-expense-auditor/)
 
 An interactive, front-end demonstration of an AI-assisted expense review workflow based on GitLab's publicly available Global Travel & Expense Policy.
 
-**Live demo:** [ai-expense-auditor-five.vercel.app](https://ai-expense-auditor-five.vercel.app/)
+**Live demo:** [juliannafan.github.io/ai-expense-auditor](https://juliannafan.github.io/ai-expense-auditor/)
 
 ## Technology
 
 - **HTML5** for the application structure and accessible workflow views.
 - **CSS3** for the responsive light enterprise interface, layout, and audit animations.
 - **JavaScript (ES6+)** for scenario state, policy evaluation, risk scoring, uploads, exports, and interactive UI behavior.
-- **Vercel** for production hosting and **GitHub** for source control and project documentation.
+- **GitHub Pages** for production hosting and **GitHub Actions** for automatic deployment from the `main` branch.
 
 ## What the demo includes
 
