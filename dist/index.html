@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="theme-color" content="#0b0912" />
+  <meta name="theme-color" content="#f7f8fc" />
   <meta name="robots" content="noindex,nofollow,noarchive" />
   <meta name="description" content="Independent AI expense auditor demo based on GitLab's publicly available Global Travel & Expense Policy" />
   <title>AI Expense Auditor · GitLab Policy Demo</title>
@@ -26,6 +26,7 @@
     @media(max-width:760px){.app{display:block}.sidebar{position:fixed;width:238px;transform:translateX(-100%);transition:.25s}.sidebar.open{transform:none}.sidebar.open .product-name,.sidebar.open .nav-label,.sidebar.open .nav button span,.sidebar.open .engine{display:block}.sidebar.open .nav button{justify-content:flex-start}.mobile-menu{display:grid}.mobile-mask{position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:19}.mobile-mask.show{display:block}main{padding:18px 14px 40px}.online{display:none}.policy-source,.demo-strip,.tax-toolbar{align-items:flex-start;flex-direction:column}.demo-strip>.btn,.tax-toolbar-actions,.tax-toolbar-actions .btn{width:100%}.case-tabs{width:100%}.dash-grid{grid-template-columns:1fr}.fields{grid-template-columns:1fr 1fr}.attachments{grid-template-columns:1fr}.form-grid{grid-template-columns:1fr}.full{grid-column:auto}.audit-item{grid-template-columns:79px 20px 1fr}.search{min-width:145px}.tax-ledger{grid-template-columns:1fr 1fr}.tax-hero{flex-direction:column}.tax-amount{text-align:left}}
     @media(max-width:480px){.metrics{grid-template-columns:1fr}.fields{grid-template-columns:1fr}.field.wide{grid-column:auto}.panel-body{padding:15px}.amount{font-size:1.85rem}.decision-actions{grid-template-columns:1fr}.avatar{display:none}}
   </style>
+  <link rel="stylesheet" href="./light-theme.css" />
 </head>
 <body>
 <div class="app">
@@ -46,7 +47,6 @@
   <div class="mobile-mask" id="mobileMask"></div>
   <main>
     <header class="topbar"><div style="display:flex;gap:10px;align-items:flex-start"><button class="icon-btn mobile-menu" id="mobileMenu" aria-label="Open menu">☰</button><div class="title"><h1 id="pageTitle">AI Review Desk</h1><p id="pageSubtitle">Apply GitLab's public expense policy with evidence-backed decisions.</p></div></div><div class="top-actions"><div class="online"><i class="live"></i>Policy engine online</div><div class="avatar">AI</div></div></header>
-    <div class="policy-source"><span><b>Independent policy simulation</b> · Based on GitLab's publicly available Global Travel & Expense Policy · Not affiliated with or endorsed by GitLab · Snapshot: Sep 13, 2026</span><a href="https://handbook.gitlab.com/handbook/finance/expenses/" target="_blank" rel="noopener">Open source policy ↗</a></div>
 
     <section class="view active" id="view-review">
       <div class="demo-strip"><div class="case-tabs"><button class="case-tab active" data-case="pass" style="color:var(--mint)"><i></i>A · Fully Compliant</button><button class="case-tab" data-case="over" style="color:var(--red)"><i></i>B · Government Official</button><button class="case-tab" data-case="missing" style="color:var(--amber)"><i></i>C · Outside Navan</button></div><button class="btn" id="newClaim">＋ New Demo Expense</button></div>
