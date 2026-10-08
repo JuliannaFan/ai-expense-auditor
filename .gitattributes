@@ -1,0 +1,6 @@
+# The application is intentionally shipped as a static site from dist/.
+# Count these source files in GitHub's language statistics instead of
+# treating the directory as generated or vendored build output.
+dist/*.html linguist-vendored=false linguist-generated=false linguist-detectable=true
+dist/*.css  linguist-vendored=false linguist-generated=false linguist-detectable=true
+
