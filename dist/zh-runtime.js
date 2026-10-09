@@ -48,6 +48,7 @@ const zhPhrases={
   '26 U.S.C. § 162':'《美国法典》第 26 编 §162','26 U.S.C. § 274':'《美国法典》第 26 编 §274','Treas. Reg. § 1.62-2':'《财政部条例》§1.62-2','IRS Publication 463':'美国国税局出版物 463',
   'Illustrative demo only; not tax or legal advice. Final treatment requires tax-adviser review.':'仅供演示，不构成税务或法律建议。最终处理需由税务顾问复核。',
   'RECEIPTS & TIMING':'收据与提交时限','TRAVEL BOOKING':'差旅预订','HOTEL & MEALS':'酒店与餐饮','HIGH-RISK & NON-REIMBURSABLE':'高风险与不可报销项目',
+  'Pending Policy Audit':'等待政策审核',' files':' 个文件',
   'Re-parse Policy Controls':'重新解析政策规则','Official handbook':'官方手册','Pending AI Review':'等待 AI 审核','Auto-Approval':'自动通过','Request Approval':'申请审批','Approve':'批准','Escalate':'升级处理','Request Documents':'请求补充材料','Approve Exception':'批准例外',
   'Policy Audit Complete':'政策审核完成','Structuring evidence...':'正在整理凭证…','Extracting vendor, amount, dates, tax, attendees, and booking channel':'提取商户、金额、日期、税额、参会人及预订渠道','Matching GitLab controls...':'正在匹配 GitLab 规则…','Testing receipt, Navan, timing, spending-limit, and hard-stop rules':'检查收据、Navan、时限、支出限额和禁止项','Resolving exceptions...':'正在核对政策例外…','Tracing manager, AP, procurement, and Compliance routes':'确认经理、应付、采购和合规审批路径','Generating cited decision...':'正在生成带依据的审核结论…','Explaining the outcome with matched policy controls':'根据匹配的政策规则说明审核结论',
   'Recommend Auto-Approval':'建议自动通过','Reject & Escalate to Compliance':'拒绝并转交合规团队','Exception Approval Required':'需要例外审批','Exception Documented — Recommend Approval':'例外已留档 — 建议批准',
