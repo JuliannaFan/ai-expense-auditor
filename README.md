@@ -9,6 +9,8 @@ An interactive, front-end demonstration of an AI-assisted expense review workflo
 
 **Live demo:** [juliannafan.github.io/ai-expense-auditor](https://juliannafan.github.io/ai-expense-auditor/)
 
+**Chinese photo demo:** [Open the online demo](https://juliannafan.github.io/ai-expense-auditor/zh.html), or open [`dist/zh.html`](dist/zh.html) locally. On a phone, tap **拍照** to capture a receipt. The page also supports desktop camera access where available, image upload, local preview, and a simulated review flow. Receipt images stay in the browser; OCR and audit results are illustrative and do not use a backend. Access to GitHub Pages may vary on mainland China networks.
+
 ## Technology
 
 - **HTML5** for the application structure and accessible workflow views.
